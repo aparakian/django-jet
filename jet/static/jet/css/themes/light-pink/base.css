@@ -3995,7 +3995,7 @@ div.system-message {
 /* HEADER */
 #branding {
   display: none;
-  background-color: #7d0078;
+  background-color: #c3007a;
   color: #cc31c3;
   padding: 14px;
   text-align: center; }
@@ -4038,9 +4038,9 @@ div.system-message {
       right: 0;
       width: auto;
       max-width: 200px;
-      color: #dabfe0;
+      color: #e0a5c6;
       border: 0;
-      border-left: 1px solid #7d0078;
+      border-left: 1px solid #c3007a;
       border-radius: 0;
       transform: none;
       transition: transform 0.3s; }
@@ -4049,7 +4049,7 @@ div.system-message {
       .user-tools ul.sidebar-opened {
         transform: translate3d(100%, 0, 0); } }
   .user-tools ul.opened {
-    background-color: #985599;
+    background-color: #992a7a;
     border-color: transparent;
     color: #fff; }
     @media only screen and (max-width: 960px) {
@@ -4099,9 +4099,9 @@ div.system-message {
           font-size: 20px;
           font-weight: bold; } }
   .user-tools ul.opened .user-tools-welcome-msg {
-    border-bottom: 1px solid #824e85; }
+    border-bottom: 1px solid #853275; }
     .user-tools ul.opened .user-tools-welcome-msg:before {
-      color: #ebc9ea;
+      color: #eb92bd;
       transform: rotate(180deg); }
   .user-tools ul li.user-tools-link {
     display: none; }
@@ -4122,8 +4122,8 @@ div.system-message {
   .user-tools ul li.user-tools-contrast-block {
     display: none;
     padding: 8px 14px;
-    background: #6f3f73;
-    color: #ebc7ea;
+    background: #821f76;
+    color: #eb7ab7;
     white-space: normal; }
   .user-tools ul.opened li.user-tools-contrast-block {
     display: block; }
@@ -4139,7 +4139,7 @@ div.system-message {
   margin: 0 5px 5px 0;
   width: 14px;
   height: 14px;
-  border: 1px solid #6f3f73;
+  border: 1px solid #821f76;
   border-radius: 3px; }
   @media only screen and (max-width: 960px) {
     .user-tools-theme-link {
@@ -7161,8 +7161,8 @@ body.change-form #content-main > form > div > .module, body.change-form #content
   left: 0;
   bottom: 0;
   z-index: 4;
-  background-color: #880084;
-  color: #cb92cc;
+  background-color: #da0091;
+  color: #cc52a6;
   transition: background-color 0.3s;
   padding-bottom: 32px; }
   @media only screen and (max-width: 960px) {
@@ -7190,8 +7190,8 @@ body.change-form #content-main > form > div > .module, body.change-form #content
         transform: translate3d(80%, 0, 0); } }
     .sidebar-header-wrapper {
       display: none;
-      background-color: #880084;
-      color: #cb92cc;
+      background-color: #da0091;
+      color: #cc52a6;
       position: fixed;
       top: 0;
       right: 0;
@@ -7204,23 +7204,23 @@ body.change-form #content-main > form > div > .module, body.change-form #content
           body.scroll-to-bottom .sidebar-header-wrapper {
             transform: translate3d(0, -100%, 0); } }
       .sidebar-header-wrapper.sidebar-opened {
-        background-color: #7d0078;
+        background-color: #c3007a;
         transform: none !important; }
     .sidebar-header-menu, .sidebar-header-menu:visited, .sidebar-header-menu:hover {
       display: inline-block;
       font-size: 14px;
       text-transform: uppercase;
-      color: #dabfe0;
+      color: #e0a5c6;
       line-height: 44px;
       padding: 0 16px;
-      border-right: 1px solid #7d0078; }
+      border-right: 1px solid #c3007a; }
     .sidebar-header-menu-icon {
       font-size: 16px;
       vertical-align: middle; }
       .sidebar-header-menu-icon.icon-cross {
         display: none;
         font-size: 20px;
-        color: #cc8ecb; }
+        color: #cc5ba3; }
     .sidebar-header.sidebar-opened .sidebar-header-menu-icon.icon-menu {
       display: none; }
     .sidebar-header.sidebar-opened .sidebar-header-menu-icon.icon-cross {
@@ -7247,7 +7247,7 @@ body.change-form #content-main > form > div > .module, body.change-form #content
     transform: translate3d(0, 0, 0); }
   .sidebar-section {
     padding: 20px 0;
-    border-bottom: 1px solid #7d0078;
+    border-bottom: 1px solid #c3007a;
     transition: border-bottom-color 0.3s; }
     @media only screen and (max-width: 960px) {
       .sidebar-section {
@@ -7256,7 +7256,7 @@ body.change-form #content-main > form > div > .module, body.change-form #content
       border-bottom: 0; }
   .sidebar-title {
     display: block;
-    color: #cb92cc;
+    color: #cc52a6;
     text-transform: uppercase;
     font-size: 11px;
     font-weight: bold;
@@ -7273,14 +7273,14 @@ body.change-form #content-main > form > div > .module, body.change-form #content
         html.touchevents .sidebar-title {
           padding-left: 20px; } }
     .sidebar-title-link, .sidebar-title-link:visited, .sidebar-title-link:hover {
-      color: #cb92cc;
+      color: #cc52a6;
       font-weight: bold;
       transition: color 0.3s; }
     .sidebar-title-link:hover {
       color: #FDBB5E; }
   .sidebar-link, .sidebar-link:visited, .sidebar-link:hover {
     display: block;
-    color: #dabfe0;
+    color: #e0a5c6;
     padding: 8px 12px 8px 24px;
     vertical-align: middle;
     transition: color 0.3s, background-color 0.3s;
@@ -7295,12 +7295,12 @@ body.change-form #content-main > form > div > .module, body.change-form #content
       text-transform: uppercase; }
   .sidebar-link:hover, .sidebar-link.selected {
     color: #fff;
-    background-color: #663665; }
+    background-color: #aa1285; }
   .sidebar-link-icon {
     font-size: 18px;
     vertical-align: middle;
     margin-right: 6px;
-    color: #c391cc;
+    color: #cc55b5;
     transition: color 0.3s; }
   .sidebar-link-label {
     vertical-align: middle;
@@ -7313,7 +7313,7 @@ body.change-form #content-main > form > div > .module, body.change-form #content
       transform: translate3d(20px, 0, 0); }
   .sidebar-center-link, .sidebar-center-link:visited, .sidebar-center-link:hover {
     display: block;
-    color: #cc8ecb;
+    color: #cc5ba3;
     font-size: 11px;
     text-align: center;
     padding: 8px 0;
@@ -7324,7 +7324,7 @@ body.change-form #content-main > form > div > .module, body.change-form #content
         padding: 12px 20px; } }
   .sidebar-center-link:hover {
     color: #FDBB5E;
-    background-color: #663665; }
+    background-color: #aa1285; }
   .sidebar-left {
     position: absolute;
     left: 4px; }
@@ -7345,7 +7345,7 @@ body.change-form #content-main > form > div > .module, body.change-form #content
       position: absolute;
       top: 1px;
       font-size: 14px;
-      color: #cc8ecb;
+      color: #cc5ba3;
       transition: color 0.3s; }
       html.touchevents .sidebar-left-pin, html.touchevents .sidebar-left-pin:visited, html.touchevents .sidebar-left-pin:hover, html.touchevents .sidebar-left-unpin, html.touchevents .sidebar-left-unpin:visited, html.touchevents .sidebar-left-unpin:hover {
         position: static;
@@ -7383,7 +7383,7 @@ body.change-form #content-main > form > div > .module, body.change-form #content
       font-size: 14px;
       outline: 0; }
     .sidebar-right-arrow {
-      color: #7e017c;
+      color: #bd007f;
       font-size: 16px;
       font-weight: bold !important;
       transition: color 0.3s, opacity 0.3s; }
@@ -7391,7 +7391,7 @@ body.change-form #content-main > form > div > .module, body.change-form #content
         opacity: 0; }
     .sidebar-right-remove, .sidebar-right-remove:visited, .sidebar-right-remove:hover {
       position: relative;
-      color: #cc8ecb;
+      color: #cc5ba3;
       transition: color 0.3s; }
     .sidebar-right-remove:hover {
       color: #FDBB5E; }
@@ -7408,7 +7408,7 @@ body.change-form #content-main > form > div > .module, body.change-form #content
   .sidebar .apps-hide.apps-hidden .apps-hide-label.apps-hidden {
     display: inline; }
   .sidebar-copyright {
-    background-color: #7d0078;
+    background-color: #c3007a;
     color: #cc31c3;
     height: 32px;
     line-height: 32px;
@@ -9229,7 +9229,7 @@ ul.actionlist li {
 
 /* LOGIN FORM */
 body.login {
-  background: #880084;
+  background: #da0091;
   padding: 100px 30px 30px 30px; }
   @media only screen and (max-width: 480px) {
     body.login {
